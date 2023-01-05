@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     from hidden_4 import * 
 
-    a = 0
-    for x in sys.argv[1::]:
-        a += int(x)
-        print
+    a = dir()
+    for i in range(0, len(array)):
+        if array[i][0:2] != "__":
+            print("{}".format(array[i]))
