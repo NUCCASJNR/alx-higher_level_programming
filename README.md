@@ -12,7 +12,7 @@ Directories | Description
 [0x01-python-if_else_loops_functions](./0x01-python-if_else_loops_functions) | if,else and elif loops in python
 [0x02-python-import_modules](./0x02-python-import_modules) | python import modules
 [0x03-python-data_structures](./0x03-python-data_structures) | python lists
-
+[0x04-python-more_data_structures](./0x04-python-more_data_structures) | Diving deep into python data structures
 
 
 
