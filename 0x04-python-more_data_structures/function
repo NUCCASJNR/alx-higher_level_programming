@@ -1,0 +1,5 @@
+def name(fname = "Essay", lname = "Article"):
+	print(f"My name is {fname} {lname}")
+fname = input("Enter your first name: ")
+lname = input("Enter your last name: ")
+name(fname, lname)
