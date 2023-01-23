@@ -9,7 +9,10 @@ You have to use try: / except:
 You are not allowed to import any module
 You are not allowed to use len()
 """
+
+
 def safe_print_list(my_list=[], x=0):
+
     a = 0
     for i in range(x):
         try:
@@ -19,4 +22,3 @@ def safe_print_list(my_list=[], x=0):
             break
     print("")
     return (a)
-    
