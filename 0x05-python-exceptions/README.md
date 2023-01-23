@@ -1,4 +1,4 @@
 Python Exceptions
 
 
-- Geeksforgeeks: [geekforgeeks](.\https://www.geeksforgeeks.org/python-classes-and-objects/)
+- Geeksforgeeks: [geekforgeeks](https://www.geeksforgeeks.org/python-classes-and-objects/)
