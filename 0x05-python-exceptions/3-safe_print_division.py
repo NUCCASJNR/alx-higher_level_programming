@@ -12,9 +12,10 @@ You have to use "{}".format() to print the result
 You are not allowed to import any module
 """
 
+
 def safe_print_division(a, b):
     try:
-        div = a /b
+        div = a / b
     except (ZeroDivisionError):
         div = None
     finally:
