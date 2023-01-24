@@ -14,7 +14,7 @@ Directories | Description
 [0x03-python-data_structures](./0x03-python-data_structures) | python lists
 [0x04-python-more_data_structures](./0x04-python-more_data_structures) | Diving deep into python data structures
 [0x05-python-exceptions](./0x05-python-exceptions) | python exceptions
-
+[0x06-python-classes](./0x06-python-classes) | python classes
 
 
 ## STUDENT NAME AND EMAIL ADDRESS
