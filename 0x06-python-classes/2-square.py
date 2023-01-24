@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 # 2-square.py written by Al-Areef
+"""A module that defines a square"""
+
 
 class Square:
     """Represents the square"""
