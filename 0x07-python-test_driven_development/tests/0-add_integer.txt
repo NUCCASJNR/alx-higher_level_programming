@@ -1,0 +1,84 @@
+# 0-add_integer.txt
+=============================
+How to use 0-add_integer.py
+=============================
+
+This module describes a function that adds to numbers
+``add_integer(a, b=98)``.
+
+USAGE
+=======
+
+``add_integer(a, b=98)`` returns the addition of its arguments. For numbers,
+that value is equivalent to using the ``+`` operator.
+
+::
+
+	>>> add_integer = __import__('0-add_integer').add_integer
+	>>> add_integer(2, 3)
+	5
+
+It also works with floating-point values but converts floating point numbers into integers
+
+::
+
+	>>> add_integer(2.0, 3)
+	5
+
+Non-Numbers
+============
+
+``add_integer(a, b)`` only takes integers or floats as arguments
+if an argument is not a float or int it raises a TypeError
+
+::
+
+	>>> add_integer('a', 3)
+	Traceback (most recent call last):
+	     raise TypeError("a must be an integer")
+        TypeError: a must be an integer
+
+::
+	>>> add_integer(3, 'b')
+	Traceback (most recent call last):
+	     raise TypeError("b must be an integer")
+	TypeError: b must be an integer
+
+Negative numbers
+=================
+
+``add_integer(a, b)`` also takes negative values as arguments
+
+::
+	>>> add_integer(100, -2)
+	98
+
+One integer
+===========
+
+``add_integer(a, b)`` doesnt take one integer
+
+::
+	>>> add_integer(2)
+	100
+
+Float and negative integer
+==========================
+
+``add_integer(100.3, -2)`` also takes float and negative integer
+
+::
+	>>> add_integer(100.3, -2)
+	98
+
+Dictionaries
+=======
+
+``add_integer(a, b)`` doesnt take strings
+
+::
+
+	>>> add_integer(['A'], 2)
+	Traceback (most recent call last):
+	     raise TypeError("a must be an integer")
+	TypeError: a must be an integer

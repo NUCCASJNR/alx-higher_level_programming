@@ -15,7 +15,7 @@ Directories | Description
 [0x04-python-more_data_structures](./0x04-python-more_data_structures) | Diving deep into python data structures
 [0x05-python-exceptions](./0x05-python-exceptions) | python exceptions
 [0x06-python-classes](./0x06-python-classes) | python classes
-
+[0x07-python-test_driven_development](./0x07-python-test_driven_development) | python test
 
 ## STUDENT NAME AND EMAIL ADDRESS
  ALAREEF
