@@ -72,7 +72,7 @@ Float and negative integer
 	98
 
 Dictionaries
-=======
+=============
 
 ``add_integer(a, b)`` doesnt take strings
 
