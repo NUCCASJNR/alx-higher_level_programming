@@ -71,7 +71,7 @@ class Rectangle:
                 Rectangle += "#"
             if i < self.__height - 1:
                 Rectangle += "\n"
-                return Rectangle
+        return Rectangle
 
     def __repr__(self):
-        return "Rectangle({}, {})".format(self.__width, self.__height)
+        return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
