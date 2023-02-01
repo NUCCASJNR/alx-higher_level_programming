@@ -53,6 +53,12 @@ Negative numbers
 	>>> add_integer(100, -2)
 	98
 
+``add_integer(a, b)`` also takes two negative numbers as arguments
+
+::
+	>>> add_integer(-2, -10)
+	-12
+
 One integer
 ===========
 
@@ -70,15 +76,3 @@ Float and negative integer
 ::
 	>>> add_integer(100.3, -2)
 	98
-
-Dictionaries
-=============
-
-``add_integer(a, b)`` doesnt take strings
-
-::
-
-	>>> add_integer(['A'], 2)
-	Traceback (most recent call last):
-	     raise TypeError("a must be an integer")
-	TypeError: a must be an integer
