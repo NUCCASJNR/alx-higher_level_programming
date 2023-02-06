@@ -17,6 +17,8 @@ Directories | Description
 [0x06-python-classes](./0x06-python-classes) | python classes
 [0x07-python-test_driven_development](./0x07-python-test_driven_development) | python test
 [0x08-python-more_classes](./0x08-python-more_classes) | python more classes and objects
+[0x0A-python-inheritance](./0x0A-python-inheritance) | python inheritance
+
 ## STUDENT NAME AND EMAIL ADDRESS
  ALAREEF
 
