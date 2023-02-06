@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""iclass MyList that inherits from list"""
+"""class MyList that inherits from list"""
 
 
 class MyList(list):
