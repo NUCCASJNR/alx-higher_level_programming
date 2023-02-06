@@ -2,6 +2,7 @@
 
 """6-base_geometry.py module"""
 
+
 class BaseGeometry:
     """The BaseGeometry class"""
 
