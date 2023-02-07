@@ -11,5 +11,5 @@ def write_file(filename="", text=""):
                 text: new content
     """
 
-    with open(filename, "w+") as a:
+    with open(filename, "w") as a:
         return a.write(text)
