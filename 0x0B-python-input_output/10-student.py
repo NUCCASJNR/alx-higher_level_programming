@@ -23,9 +23,9 @@ class Student:
 
         my_dict = dict()
         if type(attrs) is list and all(type(a) is str for a in attrs):
-                for a in attrs:
-                    if a in self.__dict__:
-                        my_dict.update({a: self.__dict__[a]})
-                return my_dict
+            for a in attrs:
+                if a in self.__dict__:
+                    my_dict.update({a: self.__dict__[a]})
+            return my_dict
 
         return self.__dict__
