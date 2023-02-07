@@ -7,7 +7,6 @@ import json
 """The json module"""
 
 
-
 def from_json_string(my_str):
     """a function that returns an object (Python data structure)
     represented by a JSON string
