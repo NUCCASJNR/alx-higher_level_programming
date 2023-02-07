@@ -18,7 +18,7 @@ Directories | Description
 [0x07-python-test_driven_development](./0x07-python-test_driven_development) | python test
 [0x08-python-more_classes](./0x08-python-more_classes) | python more classes and objects
 [0x0A-python-inheritance](./0x0A-python-inheritance) | python inheritance
-
+[0x0B-python-input_output](./0x0B-python-input_output) | python input and output
 ## STUDENT NAME AND EMAIL ADDRESS
  ALAREEF
 
