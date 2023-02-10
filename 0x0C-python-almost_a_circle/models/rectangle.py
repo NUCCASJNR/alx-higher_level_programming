@@ -32,23 +32,6 @@ class Rectangle(Base):
 
         return self.__width
 
-    @property
-    def height(self):
-        """Retrieves the height attribute"""
-
-        return self.__height
-
-    @property
-    def x(self):
-        """Retrieves the x attribute"""
-        return self.__x
-
-    @property
-    def y(self):
-        """Retrieves the y attribute"""
-
-        return self.__y
-
     @width.setter
     def width(self, value):
         """Sets the width attribute."""
@@ -58,6 +41,12 @@ class Rectangle(Base):
         if value <= 0:
             raise ValueError("width must be > 0")
         self.__width = value
+
+    @property
+    def height(self):
+        """Retrieves the height attribute"""
+
+        return self.__height
 
     @height.setter
     def height(self, value):
@@ -69,6 +58,11 @@ class Rectangle(Base):
             raise ValueError("height must be > 0")
         self.__height = value
 
+    @property
+    def x(self):
+        """Retrieves the x attribute"""
+        return self.__x
+
     @x.setter
     def x(self, value):
         """Sets the x attribute."""
@@ -78,6 +72,12 @@ class Rectangle(Base):
         if value < 0:
             raise ValueError("x must be >= 0")
         self.__x = value
+
+    @property
+    def y(self):
+        """Retrieves the y attribute"""
+
+        return self.__y
 
     @y.setter
     def y(self, value):
@@ -102,7 +102,7 @@ class Rectangle(Base):
 
         for b in range(self.__height):
             for i in range(self.__x):
-                print(end="")
+                print(" ", end="")
             for j in range(self.__width):
                 print("#", end="")
             print()
@@ -112,3 +112,29 @@ class Rectangle(Base):
 
         return "[Rectangle] ({}) {}/{} - {}/{}"\
             .format(self.id, self.__x, self.__y, self.__width, self.__height)
+
+    def update(self, *args):
+        """Update the class Rectangle by adding the public method
+            def update(self, *args): that assigns an argument to
+            each attribute
+
+            Args:
+                id = 1st argument
+                width = 2nd argument
+                height = 3rd argument
+                x = 4th argument
+                y = 5th argument
+        """
+
+        for i, v in enumerate(args):
+            if args and len(args) != 0:
+                if i == 0:
+                    self.id = v
+                elif i == 1:
+                    self.width = v
+                elif i == 2:
+                    self.height = v
+                elif i == 3:
+                    self.x = v
+                elif i == 4:
+                    self.y = v
