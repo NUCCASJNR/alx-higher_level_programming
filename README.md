@@ -19,6 +19,7 @@ Directories | Description
 [0x08-python-more_classes](./0x08-python-more_classes) | python more classes and objects
 [0x0A-python-inheritance](./0x0A-python-inheritance) | python inheritance
 [0x0B-python-input_output](./0x0B-python-input_output) | python input and output
+[0x0C-python-almost_a_circle](./0x0C-python-almost_a_circle) | python almost a circle
 ## STUDENT NAME AND EMAIL ADDRESS
  ALAREEF
 
