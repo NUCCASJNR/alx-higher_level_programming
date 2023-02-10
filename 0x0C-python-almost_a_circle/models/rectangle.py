@@ -19,10 +19,10 @@ class Rectangle(Base):
                 id - None
         """
 
-        self.__width = width
-        self.__height = height
-        self.__x = x
-        self.__y = y
+        self.width = width
+        self.height = height
+        self.x = x
+        self.y = y
 
         super().__init__(id)
 
@@ -49,17 +49,17 @@ class Rectangle(Base):
 
         return self.__y
 
+
     @width.setter
     def width(self, value):
-        """Sets the width of the rectangle"""
+        """Sets the width attribute."""
 
         if type(value) is not int:
             raise TypeError("width must be an integer")
-        elif value <= 0:
+        if value <= 0:
             raise ValueError("width must be > 0")
         self.__width = value
 
-    
     @height.setter
     def height(self, value):
         """Sets the height attribute."""
@@ -72,20 +72,25 @@ class Rectangle(Base):
 
     @x.setter
     def x(self, value):
-        """Sets x attribute"""
+        """Sets the x attribute."""
 
         if type(value) is not int:
             raise TypeError("x must be an integer")
-        if value <= 0:
+        if value < 0:
             raise ValueError("x must be >= 0")
         self.__x = value
 
     @y.setter
     def y(self, value):
-        """Sets y attribute"""
+        """Sets the y attribute."""
 
         if type(value) is not int:
             raise TypeError("y must be an integer")
         if value < 0:
             raise ValueError("y must be >= 0")
         self.__y = value
+
+    def area(self):
+        """returns the area value of the Rectangle instance."""
+
+        return self.__height * self.__width
