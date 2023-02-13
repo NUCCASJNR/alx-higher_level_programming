@@ -174,7 +174,62 @@ class TestRectangle_width(unittest.TestCase):
             Rectangle(float('nan'), 8)
 
 class TestRectangle_height(unittest.TestCase):
-    """unittest for testing initialization of height attribute
+    """unittest for testing initialization of height attribute"""
+
+    def test_float_height(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(5, 2.5)
+
+    def test_str_height(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(2, "Ant")
+
+    def test_dict_height(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(8, {'a': 1})
+
+    def test_list_list(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(4, [1, 2])
+
+    def test_tuple(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(4, (1,))
+
+    def test_boolean(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(9, True)
+    def test_set(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(8, {1})
+
+    def test_complex(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(1, complex(1))
+
+    def test_frozenset(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(1, frozenset({1}))
+
+    def test_bytes(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(9, bytes("ALAreef", 'utf-8'))
+
+    def test_bytesarray(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(6, bytearray("AlAreef", 'utf-8'))
+
+    def test_memoryview(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(5, memoryview(b'ABC'))
+
+    def test_inf(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(3, float('inf'))
+
+    def test_nan(self):
+        with self.assertRaisesRegex(TypeError, "height must be an integer"):
+            Rectangle(9, float('nan'))
 
     if __name__ == "__main__":
         unittest.main()
