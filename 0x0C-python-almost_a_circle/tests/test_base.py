@@ -99,7 +99,7 @@ class TestBase_instantiation(unittest.TestCase):
         self.assertNotEqual(float('nan'), Base(float('nan')).id)
 
     def test_two_args(self):
-        with self.assertRaises(Exception):
+        with self.assertRaises(TypeError):
             Base(1, 2)
 
     if __name__ == "__main__":
