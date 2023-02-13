@@ -173,6 +173,10 @@ class TestRectangle_width(unittest.TestCase):
         with self.assertRaisesRegex(TypeError, "width must be an integer"):
             Rectangle(float('nan'), 8)
 
+    def test_less_0(self):
+        with self.assertRaisesRegex(ValueError,  "width must be > 0"):
+            Rectangle(-1, 8)
+
 class TestRectangle_height(unittest.TestCase):
     """unittest for testing initialization of height attribute"""
 
