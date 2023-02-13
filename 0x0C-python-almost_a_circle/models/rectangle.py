@@ -126,8 +126,8 @@ class Rectangle(Base):
                 y = 5th argument
         """
 
-        for i, v in enumerate(args):
-            if args and len(args) != 0:
+        if args and len(args) != 0:
+            for i, v in enumerate(args):
                 if i == 0:
                     self.id = v
                 elif i == 1:
@@ -139,4 +139,40 @@ class Rectangle(Base):
                 elif i == 4:
                     self.y = v
 
+<<<<<<< HEAD
             else:
+=======
+        elif kwargs and len(kwargs) != 0:
+            for key, value in kwargs.items():
+                if key == "id":
+                    self.id = value
+                elif key == "height":
+                    self.height = value
+                elif key == "width":
+                    self.width = value
+                elif key == "x":
+                    self.x = value
+                elif key == "y":
+                    self.y = value
+
+    def to_dictionary(self):
+        """Returns the dictionary representation of a
+            Rectangle
+            Args:
+                id - 1st key in the dictionary
+                width - 2nd key in the dictionary
+                height - 3rd key in the dictionary
+                x - 4th key in the dictionary
+                y - 5th key in the dictionary
+        """
+
+        return (
+                {
+                    "id": self.id,
+                    "width": self.width,
+                    "height": self.height,
+                    "x": self.x,
+                    "y": self.y
+                    }
+                )
+>>>>>>> 4139db3a47c89b92ccad88211475eb7f8367314c
