@@ -34,4 +34,4 @@ email: alareefadegbite@gmail.com
 - facebook: [facebook](https://www.facebook.com/profile.php?id=100088347365140)
 
 
-The main.py files serves as the testing file to test the codes
+The main.py files serves as the testing file to test the codes and get the required output
