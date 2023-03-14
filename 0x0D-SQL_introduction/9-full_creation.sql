@@ -13,7 +13,7 @@
 -- id = 3, name = “Bob”, score = 14
 -- id = 4, name = “George”, score = 8
 
-CREATE TABLE IF NOT EXISTS second_table(
+CREATE TABLE IF NOT EXISTS second_table (
 	id INT
 	name VARCHAR(256)
 	scrore INT
