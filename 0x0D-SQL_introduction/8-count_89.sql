@@ -3,5 +3,5 @@
 
 -- The database name will be passed as an argument of the mysql command
 
-SELECT COUNT(id) FROM USERS
+SELECT COUNT(id) FROM first_table
 WHERE id = 89;
