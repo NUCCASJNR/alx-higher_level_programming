@@ -20,6 +20,9 @@ Directories | Description
 [0x0A-python-inheritance](./0x0A-python-inheritance) | python inheritance
 [0x0B-python-input_output](./0x0B-python-input_output) | python input and output
 [0x0C-python-almost_a_circle](./0x0C-python-almost_a_circle) | python almost a circle
+[0x0D-SQL_introduction](./0x0D-SQL_introduction) | Introduction to SQL
+
+
 ## STUDENT NAME AND EMAIL ADDRESS
  ALAREEF
 
