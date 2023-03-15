@@ -8,5 +8,5 @@
 -- The database name will be passed as an argument of the mysql command
 
 
-USE hbtn_0d_usa
+USE hbtn_0d_usa;
 SELECT id, name FROM states WHERE name = 'California' ORDER BY id ASC;
