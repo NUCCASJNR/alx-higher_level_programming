@@ -21,7 +21,7 @@ Directories | Description
 [0x0B-python-input_output](./0x0B-python-input_output) | python input and output
 [0x0C-python-almost_a_circle](./0x0C-python-almost_a_circle) | python almost a circle
 [0x0D-SQL_introduction](./0x0D-SQL_introduction) | Introduction to SQL
-
+[0x0E-SQL_more_queries](./0x0E-SQL_more_queries) | More SQL queries
 
 ## STUDENT NAME AND EMAIL ADDRESS
  ALAREEF
