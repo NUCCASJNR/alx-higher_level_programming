@@ -8,5 +8,5 @@
 
 SELECT cities.id, cities.name, states.name
 FROM cities, states
-WHERE cities.name =  states.name AND cities.id = cities.id
+WHERE cities.name =  states.name AND cities.state_id = state.id
 ORDER BY cities.id ASC;
