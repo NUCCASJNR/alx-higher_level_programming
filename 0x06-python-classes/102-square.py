@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # 4-square.py by Al-Areef
 """A class that defines a square"""
 
@@ -43,7 +43,7 @@ class Square:
 
         return self.__size ** 2
 
-    def __eq__(self, other):
+    def __e__(self, other):
         """Define the == comparision to a Square."""
         return self.area() == other.area()
 
@@ -66,3 +66,5 @@ class Square:
     def __ge__(self, other):
         """Define the >= compmarison to a Square."""
         return self.area() >= other.area()
+
+
