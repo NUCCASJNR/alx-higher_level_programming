@@ -3,7 +3,7 @@
 
 
 # Description
-This is the readme for all my alx python tasks
+This is the readme for all my alx-africa python tasks
 
 ## Table of contents
 Directories | Description
