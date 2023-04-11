@@ -11,12 +11,5 @@
 // You are not allowed to use var
 
 exports.addMeMaybe = function (number, theFunction) {
-  let result = 0;
-  return function() {
-    result++;
-    if (result <= number) {
-      theFunction();
-    }
-  }
-}
-
+  theFunction(++number);
+};
