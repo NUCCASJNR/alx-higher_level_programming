@@ -26,3 +26,10 @@ writing javascript codes: [javascript](https://developer.mozilla.org/en-US/docs/
  - tutorial: [tutorial](https://www.youtube.com/watch?v=vZBCTc9zHtI)
 
  - cheat: [cheat](https://github.com/mbeaudru/modern-js-cheatsheet)
+
+## install Node 14
+
+ ```bash
+ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+ sudo apt-get install -y nodejs
+ ```
