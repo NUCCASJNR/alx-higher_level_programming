@@ -22,6 +22,7 @@ Directories | Description
 [0x0C-python-almost_a_circle](./0x0C-python-almost_a_circle) | python almost a circle
 [0x0D-SQL_introduction](./0x0D-SQL_introduction) | Introduction to SQL
 [0x0E-SQL_more_queries](./0x0E-SQL_more_queries) | More SQL queries
+[0-javascript_is_amazing.js](./0-javascript_is_amazing.js) | introduction to javascript
 
 ## STUDENT NAME AND EMAIL ADDRESS
  ALAREEF
@@ -33,7 +34,7 @@ email: alareefadegbite@gmail.com
 
 - GitHub: [NUCCASJNR](https://github.com/NUCCASJNR)
 - Twitter: [codewithalareef](https://twitter.com/codewithalareef)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/adegbite-al-areef-2b0b8723a)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/alareef)
 - facebook: [facebook](https://www.facebook.com/profile.php?id=100088347365140)
 
 
