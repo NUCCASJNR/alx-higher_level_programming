@@ -22,7 +22,7 @@ Directories | Description
 [0x0C-python-almost_a_circle](./0x0C-python-almost_a_circle) | python almost a circle
 [0x0D-SQL_introduction](./0x0D-SQL_introduction) | Introduction to SQL
 [0x0E-SQL_more_queries](./0x0E-SQL_more_queries) | More SQL queries
-[0-javascript_is_amazing.js](./0-javascript_is_amazing.js) | introduction to javascript
+[0x12-javascript-warm_up](./0x12-javascript-warm_up) | introduction to javascript
 
 ## STUDENT NAME AND EMAIL ADDRESS
  ALAREEF
