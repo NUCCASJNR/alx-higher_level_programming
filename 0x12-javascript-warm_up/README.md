@@ -27,9 +27,9 @@ writing javascript codes: [javascript](https://developer.mozilla.org/en-US/docs/
 
  - cheat: [cheat](https://github.com/mbeaudru/modern-js-cheatsheet)
 
-## install Node 14
+## install node 14
 
- ```bash
- curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
- sudo apt-get install -y nodejs
- ```
+```bash
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
