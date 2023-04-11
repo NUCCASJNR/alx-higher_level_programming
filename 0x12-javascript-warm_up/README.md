@@ -33,3 +33,13 @@ writing javascript codes: [javascript](https://developer.mozilla.org/en-US/docs/
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
+
+## install semi-standard
+
+```bash
+ sudo npm install semistandard --global
+ ```
+
+## Semistandard Documentation
+
+ SemiStandard: [SemiStandard](https://github.com/standard/semistandard)
