@@ -23,6 +23,7 @@ Directories | Description
 [0x0D-SQL_introduction](./0x0D-SQL_introduction) | Introduction to SQL
 [0x0E-SQL_more_queries](./0x0E-SQL_more_queries) | More SQL queries
 [0x12-javascript-warm_up](./0x12-javascript-warm_up) | introduction to javascript
+[0x13-javascript_objects_scopes_closures](./0x13-javascript_objects_scopes_closures) | Introduction to OOP 
 
 ## STUDENT NAME AND EMAIL ADDRESS
  ALAREEF
