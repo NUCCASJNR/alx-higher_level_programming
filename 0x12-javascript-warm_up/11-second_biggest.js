@@ -8,11 +8,10 @@
 //  You must use console.log(...) to print all output
 //  You are not allowed to use var
 
-
 const args = process.argv.slice(2);
 if (args.length === 0 || args.length === 1) {
   console.log(0);
 } else {
-const sort = args.map((ele) => Number(ele)).sort((a, b) => (b - a));
-console.log(sort[1]);
+  const sort = args.map((ele) => Number(ele)).sort((a, b) => (b - a));
+  console.log(sort[1]);
 }
