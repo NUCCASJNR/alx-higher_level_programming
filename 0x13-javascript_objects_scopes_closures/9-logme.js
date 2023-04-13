@@ -9,4 +9,4 @@ let iter = 0;
 exports.logMe = function (item) {
   console.log(`${iter}: ${item}`);
   iter++;
-}
+};
