@@ -2,4 +2,6 @@
 
 ORM: [ORM](https://www.fullstackpython.com/object-relational-mappers-orms.html)
 
-MYSQL: 
+MYSQL: [DOCUMENTATION](https://mysqlclient.readthedocs.io/)
+
+MYSQL TUTORIAL: [TUTORIAL](https://www.mikusa.com/python-mysql-docs/index.html)
