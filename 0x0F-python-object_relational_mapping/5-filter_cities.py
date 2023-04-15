@@ -33,7 +33,9 @@ if __name__ == "__main__":
 
     cursor_obj.execute(sql, (state_name,))
     selected_rows = cursor_obj.fetchall()
-    print(selected_rows)
+    for row in selected_rows:
+        val = ', '.join(str(col) for col in row)
+        print(val, end =', ')
 
     cursor_obj.close()
     database_connection.close()
