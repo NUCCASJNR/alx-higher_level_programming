@@ -27,11 +27,13 @@ if __name__ == "__main__":
     """Create the cursor object"""
 
     sql = ("SELECT cities.name FROM cities INNER JOIN states \
-            ON cities.state_id = states.id WHERE states.name = %s")
+            ON cities.state_id = states.id WHERE states.name LIKE \
+            BINARY %s ORDER BY \
+            cities.id ASC")
+
     cursor_obj.execute(sql, (state_name,))
     selected_rows = cursor_obj.fetchall()
-    for row in selected_rows:
-        print(row)
+    print(selected_rows)
 
     cursor_obj.close()
     database_connection.close()
