@@ -28,7 +28,8 @@ if __name__ == "__main__":
     """
     Creates the cursor object
     """
-    sql = ("SELECT id, name FROM states WHERE name = %s ORDER BY id  ASC")
+    sql = ("SELECT id, name FROM states WHERE name = %s ORDER BY\
+            states.id  ASC")
     cursor_obj.execute(sql, (state_name,))
     selected_row = cursor_obj.fetchall()
     for i in selected_row:
