@@ -16,7 +16,6 @@ if __name__ == "__main__":
     username = sys.argv[1]
     password = sys.argv[2]
     database = sys.argv[3]
-    state_name = sys.argv[4]
     db = MySQLdb.connect(
             host="localhost",
             user=username,
@@ -28,9 +27,9 @@ if __name__ == "__main__":
     """
     Creates the cursor object
     """
-    sql = ("SELECT id, name FROM states WHERE name = %s ORDER BY\
-            states.id  ASC")
-    cursor_obj.execute(sql, (state_name,))
+    sql = ("SELECT id, name FROM states WHERE name LIKE BINARY '{}' ORDER BY \
+            states.id  ASC".format(sys.argv[4]))
+    cursor_obj.execute(sql)
     selected_row = cursor_obj.fetchall()
     for i in selected_row:
         print(i)
