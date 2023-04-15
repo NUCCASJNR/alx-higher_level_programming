@@ -31,11 +31,8 @@ if __name__ == "__main__":
             BINARY %s ORDER BY \
             cities.id ASC")
 
-    cursor_obj.execute(sql, (state_name,))
+    cursor_obj.execute(sql, (state_name, ))
     selected_rows = cursor_obj.fetchall()
-    for row in selected_rows:
-        val = ', '.join(str(col) for col in row)
-        print(val, end =', ')
-
+    print(*[row[0] for row in selected_rows], sep=", ")
     cursor_obj.close()
     database_connection.close()
