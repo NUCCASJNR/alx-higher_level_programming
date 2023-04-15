@@ -33,7 +33,6 @@ if __name__ == "__main__":
 
     cursor_obj.execute(sql, (state_name, ))
     selected_rows = cursor_obj.fetchall()
-    for row in selected_rows:
-        print(row[0], end=", ")
+    print(*[row[0] for row in selected_rows], sep=", ")
     cursor_obj.close()
     database_connection.close()
