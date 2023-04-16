@@ -32,7 +32,7 @@ if __name__ == "__main__":
 
     filtered_letter = 'a'
     state_to_delete = session.query(State).filter(State.name.contains(
-        f'%{filtered_letter}')).first()
+        f'%{filtered_letter}')).all()
 
     if state_to_delete:
         session.delete(state_to_delete)
