@@ -43,8 +43,8 @@ if __name__ == "__main__":
         session.add(new_state)
         session.commit()
         print(f"{new_state.id}")
-    except Exception as a:
+    except Exception as e:
         session.rollback()
-        print(f"{a}")
+        print(f"{e}")
 
 session.close()
