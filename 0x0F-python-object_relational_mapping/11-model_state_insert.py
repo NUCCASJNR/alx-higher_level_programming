@@ -45,6 +45,6 @@ if __name__ == "__main__":
         print(f"{new_state.id}")
     except Exception as a:
         session.rollback()
-        print(f"{e}")
+        print(f"{a}")
 
 session.close()
