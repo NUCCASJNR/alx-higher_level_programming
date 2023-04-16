@@ -36,5 +36,5 @@ if __name__ == "__main__":
 
     if state_to_delete:
         session.delete(state_to_delete)
-        session.commit()
+    session.commit()
     session.close()
