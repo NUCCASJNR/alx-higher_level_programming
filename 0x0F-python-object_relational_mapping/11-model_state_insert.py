@@ -39,7 +39,7 @@ if __name__ == "__main__":
     """
     Add the new created object to the session
     """
-        session.add(new_state)
-        session.commit()
-        print(f"{new_state.id}")
-        session.close()
+    session.add(new_state)
+    session.commit()
+    print(f"{new_state.id}")
+    session.close()
