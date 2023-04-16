@@ -31,4 +31,4 @@ if __name__ == "__main__":
     if User:
         print(f"{User.id}: {User.name}")
     else:
-        print("")
+        print("Nothing")
