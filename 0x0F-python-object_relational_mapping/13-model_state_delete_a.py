@@ -35,6 +35,7 @@ if __name__ == "__main__":
         f'%{filtered_letter}')).all()
 
     if state_to_delete:
-        session.delete(state_to_delete)
-    session.commit()
+        for state in state_to_delete:
+            session.delete(state_to_delete)
+        session.commit()
     session.close()
