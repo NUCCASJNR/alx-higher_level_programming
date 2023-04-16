@@ -31,7 +31,7 @@ if __name__ == "__main__":
     Write query to be executed below
     """
 
-    cities = session.query(City, State).join(City)
+    cities = session.query(City, State).join(City).order_by(City.id)
     for city, state in cities.all():
         print(f"{state.name}: ({city.id}) {city.name}")
 
