@@ -39,12 +39,7 @@ if __name__ == "__main__":
     """
     Add the new created object to the session
     """
-    try:
         session.add(new_state)
         session.commit()
         print(f"{new_state.id}")
-    except Exception as e:
-        session.rollback()
-        print(f"{e}")
-
-session.close()
+        session.close()
