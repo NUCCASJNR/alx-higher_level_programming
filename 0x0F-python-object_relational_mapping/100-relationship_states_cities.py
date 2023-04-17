@@ -7,9 +7,8 @@ and save them as relationship_city.py and relationship_state.py
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy.ext.declarative import declarative_base
-from model_state import State, Base
-from model_city import City
+from relationship_state import State, Base
+from relationship_city import City
 import sys
 
 if __name__ == "__main__":
@@ -30,8 +29,8 @@ if __name__ == "__main__":
     session = Session()
 
     new_state = State(name='California')
-    new_city = City(name='San Francisco', state_id = 2)
-    new_city.states = new_state
+    new_city = City(name='San Francisco')
+    new_state.cities.append(new_city)
     session.add(new_state)
     session.add(new_city)
     session.commit()

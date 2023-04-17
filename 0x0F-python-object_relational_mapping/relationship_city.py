@@ -7,7 +7,7 @@ contains the class definition of a City.
 
 from sqlalchemy import create_engine, Integer, Column
 from sqlalchemy import String, Sequence, ForeignKey
-from model_state import Base, State
+from relationship_state import Base
 
 
 class City(Base):
