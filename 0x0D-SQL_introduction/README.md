@@ -14,20 +14,19 @@ SELECT id, name FROM students WHERE batch_id = 3 ORDER BY created_at DESC LIMIT 
 
 ```bash
 sudo apt update
+
 ```
 
 ```bash
 sudo apt install mysql-server
+
 ```
-...
 
 ```bash
  mysql --version
-```
 mysql  Ver 8.0.25-0ubuntu0.20.04.1 for Linux on x86_64 ((Ubuntu))
 
-
-Introduction to MYSQL
+```
 
 ## RECOMMENDED MATERIALS
 
