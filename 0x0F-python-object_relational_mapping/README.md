@@ -1,7 +1,27 @@
 ## INTRODUCTION TO ORM
 
-ORM: [ORM](https://www.fullstackpython.com/object-relational-mappers-orms.html)
+[ORM](https://www.fullstackpython.com/object-relational-mappers-orms.html)
 
-MYSQL: [DOCUMENTATION](https://mysqlclient.readthedocs.io/)
+[DOCUMENTATION](https://mysqlclient.readthedocs.io/)
 
-MYSQL TUTORIAL: [TUTORIAL](https://www.mikusa.com/python-mysql-docs/index.html)
+[TUTORIAL](https://www.mikusa.com/python-mysql-docs/index.html)
+
+[sqlalchemy](https://docs.sqlalchemy.org/en/13/)
+
+
+[mysqlclient](https://github.com/PyMySQL/mysqlclient)
+
+
+[intro](https://www.youtube.com/watch?v=woKYyhLCcnU)
+
+
+[flask](https://www.youtube.com/playlist?list=PLXmMXHVSvS-BlLA5beNJojJLlpE0PJgCW)
+
+
+[newbies check this out](http://alextechrants.blogspot.com/2013/11/10-common-stumbling-blocks-for.html)
+
+[cheat](https://www.pythonsheets.com/notes/python-sqlalchemy.html)
+
+[tutorial for python devs](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/)
+
+[sql tutorial](https://overiq.com/sqlalchemy-101/)
