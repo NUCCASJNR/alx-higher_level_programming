@@ -56,3 +56,22 @@ import MySQLdb
 MySQLdb.version_info 
 (2, 0, 3, 'final', 0)
 ```
+
+## Install SQLAlchemy module version 1.4.x
+
+```bash
+sudo pip3 install SQLAlchemy
+```
+
+```bash
+ python3
+ ```
+
+ ```bash
+ import sqlalchemy
+ ```
+
+ ```bash
+ sqlalchemy.__version__ 
+ '1.4.22'
+ ```
