@@ -25,3 +25,21 @@
 [tutorial for python devs](https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/)
 
 [sql tutorial](https://overiq.com/sqlalchemy-101/)
+
+## Install MySQLdb module version 2.0.x
+
+```bash
+sudo apt-get install python3-dev
+```
+
+```bash
+sudo apt-get install libmysqlclient-dev
+```
+
+```bash
+sudo apt-get install zlib1g-dev
+```
+
+```bash
+sudo pip3 install mysqlclient
+```
