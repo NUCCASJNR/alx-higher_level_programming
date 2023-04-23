@@ -43,3 +43,16 @@ sudo apt-get install zlib1g-dev
 ```bash
 sudo pip3 install mysqlclient
 ```
+
+```bash
+python3
+```
+
+```bash
+import MySQLdb
+```
+
+```bash
+MySQLdb.version_info 
+(2, 0, 3, 'final', 0)
+```
