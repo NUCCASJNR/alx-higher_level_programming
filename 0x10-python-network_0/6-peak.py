@@ -1,9 +1,10 @@
 #!/usr/bin/python3
+"""
+Prints peak value
+"""
+
 
 def find_peak(list_of_integers):
-    """
-    a function that finds a peak in a list of unsorted integers.
-    """
 
     if list_of_integers == []:
         return None
