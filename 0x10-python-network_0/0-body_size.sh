@@ -1,3 +1,3 @@
 #!/bin/bash
 #Bash script that takes in a URL, sends a request to that URL
-curl -sI "$1":"$2"
+curl -s "$1":"$2" -w "%{size_download}\n"
