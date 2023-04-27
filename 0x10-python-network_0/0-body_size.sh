@@ -4,4 +4,4 @@
 #The size must be displayed in bytes
 #You have to use curl
 
-curl -I "$1":"$2"
+curl -s "$1":"$2"
