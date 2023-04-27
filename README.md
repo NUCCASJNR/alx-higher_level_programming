@@ -25,6 +25,8 @@ Directories | Description
 [0x13-javascript_objects_scopes_closures](./0x13-javascript_objects_scopes_closures) | Introduction to OOP 
 [0x0F-python-object_relational_mapping](./0x0F-python-object_relational_mapping) | Introduction to orm
 [0x10-python-network_0](./0x10-python-network_0) | HTTPS
+[0x11-python-network_1](./0x11-python-network_1) | More on HTTPS
+
 
 ## STUDENT NAME AND EMAIL ADDRESS
  ALAREEF
