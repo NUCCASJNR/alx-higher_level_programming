@@ -7,7 +7,7 @@
 
 import urllib.request
 import sys
-#from urllib.error import HTTPError
+# from urllib.error import HTTPError
 if __name__ == "__main__":
     url = sys.argv[1]
     req = urllib.request.Request(url)
