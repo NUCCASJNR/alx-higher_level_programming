@@ -20,9 +20,9 @@ if __name__ == "__main__":
     res = requests.get(url)
     if res.status_code == 200:
         commits = res.json()
-        for commit in commits:
-            sha = commit.get('sha')
-            auth = commit.get('commit').get('author').get('name')
+        for i in range(10):
+            sha = commits[i].get('sha')
+            auth = commits[i].get('commit').get('author').get('name')
             print(f"{sha}: {auth}")
     else:
         print(f"{res.status_code}")
