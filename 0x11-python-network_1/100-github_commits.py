@@ -12,7 +12,6 @@ You don’t need to check arguments passed to the script (number or type)
 
 import requests
 import sys
-import json
 
 if __name__ == "__main__":
     repo = sys.argv[1]
