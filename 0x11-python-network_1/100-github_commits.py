@@ -23,6 +23,6 @@ if __name__ == "__main__":
         for commit in commits:
             sha = commit.get('sha')
             auth = commit.get('commit').get('author').get('name')
-            print(f"{sha}: {auth}")
+            print(f"{res.status_code}: {sha}: {auth}")
     else:
         print(f"{res.status_code}")

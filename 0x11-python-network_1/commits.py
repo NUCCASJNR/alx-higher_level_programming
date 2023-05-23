@@ -17,7 +17,8 @@ Auth = {
 
 res = requests.get(end, headers=Auth)
 if res.status_code == 200:
-    data = json.loads(res.content)
+    #data = json.loads(res.content)
+    data = res.json()
 
     for commit in data:
         print(f"Commit SHA: {commit.get('sha')}")

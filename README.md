@@ -26,7 +26,7 @@ Directories | Description
 [0x0F-python-object_relational_mapping](./0x0F-python-object_relational_mapping) | Introduction to orm
 [0x10-python-network_0](./0x10-python-network_0) | HTTPS
 [0x11-python-network_1](./0x11-python-network_1) | More on HTTPS
-
+[0x14-javascript-web_scraping](./0x14-javascript-web_scraping) | Web scrapping
 
 ## STUDENT NAME AND EMAIL ADDRESS
  ALAREEF
