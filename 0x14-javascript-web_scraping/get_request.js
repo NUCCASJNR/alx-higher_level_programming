@@ -13,6 +13,7 @@ request.get(options, (error, response, body) => {
   if (error) {
     console.error(error);
   } else {
+    console.log('Status Code:', response.statusCode);
     console.log(body);
   }
 });
