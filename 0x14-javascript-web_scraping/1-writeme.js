@@ -11,9 +11,9 @@ const file = require('fs');
 const write = process.argv[2];
 const content = process.argv[3];
 
-file.writeFile(`${write}`, `${content}`, 'utf8', (eror) => {
-  if (eror) {
-    console.error(eror);
+file.writeFile(`${write}`, `${content}`, 'utf8', (error) => {
+  if (error) {
+    console.error(error);
   } else {
     console.log('File written successfully!');
   }
