@@ -17,7 +17,9 @@ req.get(`${url}`, (error, response, body) => {
     for (let i = 0; i < arg.length; i++) {
       const search = arg[i];
       if (search.completed === true) {
-        result[search.userId] = search.id;
+        result[search.userId] += 1;
+      } else {
+        result[search.userId] = 1;
       }
     }
     console.log(result);
