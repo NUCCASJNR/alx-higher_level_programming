@@ -14,7 +14,7 @@ request.get(options, (error, response, body) => {
     console.error(error);
   } else {
     console.log('Status Code:', response.statusCode);
-    const log = JSON.parse(body)
+    const log = JSON.parse(body);
     console.log(log.login);
   }
 });
