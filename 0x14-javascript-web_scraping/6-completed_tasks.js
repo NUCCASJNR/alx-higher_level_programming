@@ -8,6 +8,7 @@
 
 const req = require('request');
 const url = process.argv[2];
+
 req.get(`${url}`, (error, response, body) => {
   if (error) {
     console.error(error);
@@ -17,7 +18,11 @@ req.get(`${url}`, (error, response, body) => {
     for (let i = 0; i < arg.length; i++) {
       const search = arg[i];
       if (search.completed === true) {
-        result[search.userId] = search.id;
+        if (result[search.userId]) {
+          result[search.userId]++;
+        } else {
+          result[search.userId] = 1;
+        }
       }
     }
     console.log(result);
