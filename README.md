@@ -27,6 +27,7 @@ Directories | Description
 [0x10-python-network_0](./0x10-python-network_0) | HTTPS
 [0x11-python-network_1](./0x11-python-network_1) | More on HTTPS
 [0x14-javascript-web_scraping](./0x14-javascript-web_scraping) | Web scrapping
+[0x15-javascript-web_jquery](./0x15-javascript-web_jquery) | JavaScirpt JQuery
 
 ## STUDENT NAME AND EMAIL ADDRESS
  ALAREEF
