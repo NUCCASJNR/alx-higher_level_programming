@@ -2,6 +2,4 @@
 
 // You can’t use document.querySelector to select the HTML tag
 // You must use the JQuery API
-document.ready(function () {
-  $('header').css('color', '#FF0000');
-});
+$('header').css('color', '#FF0000');
